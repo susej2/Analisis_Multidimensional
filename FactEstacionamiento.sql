@@ -1,4 +1,4 @@
-USE ExamenAnalisis;
+USE TareaAnalisis;
 IF OBJECT_ID('FactEstacionamiento', 'U') IS NOT NULL
 	DROP TABLE FactEstacionamiento;
 CREATE TABLE FactEstacionamiento (
