@@ -2,8 +2,8 @@ USE ExamenAnalisis;
 IF OBJECT_ID('FactEstacionamiento', 'U') IS NOT NULL
 	DROP TABLE FactEstacionamiento;
 CREATE TABLE FactEstacionamiento (
-	[IDParqueo] int,
-	[IDVehiculo] int,
+	[Id_Parqueo] int,
+	[Id_Vehiculo] int,
 	[TarifaBase] numeric(10,2),
 	[Ganancia] numeric(10,2),
 	[Mantenimiento] numeric(10,2),
