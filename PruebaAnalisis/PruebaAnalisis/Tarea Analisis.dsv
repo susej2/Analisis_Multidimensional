@@ -1,0 +1,274 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a1271941-91e3-47b1-a008-cb9791ae5a6f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tarea Analisis</ID>
+  <Name>Tarea Analisis</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3499" scrolltop="-5670" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26247" y="16785" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="13985" top="-3747" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3620" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000240e000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimParqueo" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimVehiculo" left="1035" top="-3599" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4509" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00009d110000a30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimVehiculo" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstacionamiento" left="7818" top="-42" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5165" height="8069" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00002d140000851f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_FactEstacionamiento" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12300" top="-1939" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2245" height="2197" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FactEstacionamiento-DimParqueo]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="1" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14145" y="-1440" />
+                    <point x="14145" y="-672" />
+                    <point x="12600" y="-672" />
+                    <point x="12600" y="-42" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="5244" top="-475" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="2874" height="917" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FactEstacionamiento-DimVehiculo]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="27" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5544" y="-76" />
+                    <point x="6681" y="-76" />
+                    <point x="6681" y="142" />
+                    <point x="7818" y="142" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-3499</DiagramViewPortLeft>
+            <DiagramViewPortTop>-5670</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Tarea Analisis</DataSourceID>
+  <Schema>
+    <xs:schema id="Tarea_x0020_Analisis" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Tarea_x0020_Analisis" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="96bc150c-167c-422a-b34a-e0e89eb505de">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DimParqueo" msprop:design-time-name="63caad8b-87e8-42db-8887-66af7e25a739" msprop:FriendlyName="DimParqueo" msprop:DbSchemaName="dbo" msprop:DbTableName="DimParqueo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Parqueo" msprop:design-time-name="56aa7914-96c7-41c7-9149-b487d4b9de84" msprop:DbColumnName="Id_Parqueo" msprop:FriendlyName="Id_Parqueo" type="xs:int" />
+                  <xs:element name="Distrito_Parqueo" msprop:design-time-name="c543eeed-ff53-4311-84b9-39a1bcfbb67e" msprop:DbColumnName="Distrito_Parqueo" msprop:FriendlyName="Distrito_Parqueo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Provincia_Parqueo" msprop:design-time-name="22f96da1-b56d-4016-951a-334cb71f7c3c" msprop:DbColumnName="Provincia_Parqueo" msprop:FriendlyName="Provincia_Parqueo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Canton_Parqueo" msprop:design-time-name="0694d118-e588-45aa-9878-7bbe4e7037c2" msprop:DbColumnName="Canton_Parqueo" msprop:FriendlyName="Canton_Parqueo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimVehiculo" msprop:design-time-name="0936e094-4643-49ee-868a-1641474efbfa" msprop:FriendlyName="DimVehiculo" msprop:DbSchemaName="dbo" msprop:DbTableName="DimVehiculo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Vehiculo" msprop:design-time-name="9a4bfcf2-3b81-44b1-98c1-cc59e1c82ead" msprop:DbColumnName="Id_Vehiculo" msprop:FriendlyName="Id_Vehiculo" type="xs:int" />
+                  <xs:element name="Tipo_Vehiculo" msprop:design-time-name="abeff57f-ff19-4e57-b32e-45e865205b95" msprop:DbColumnName="Tipo_Vehiculo" msprop:FriendlyName="Tipo_Vehiculo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Fab_Vehiculo" msprop:design-time-name="0495a3bc-b308-4d6b-af56-53221a34954a" msprop:DbColumnName="Fab_Vehiculo" msprop:FriendlyName="Fab_Vehiculo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Pais_Fab_Vehiculo" msprop:design-time-name="3af6e0cb-78c2-4059-814c-b981355a1bd7" msprop:DbColumnName="Pais_Fab_Vehiculo" msprop:FriendlyName="Pais_Fab_Vehiculo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Abv_Pais_Fab_Vehiculo" msprop:design-time-name="b6bd930f-e836-43d5-a977-3c0a532d5f0f" msprop:DbColumnName="Abv_Pais_Fab_Vehiculo" msprop:FriendlyName="Abv_Pais_Fab_Vehiculo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Region_Fab_Vehiculo" msprop:design-time-name="da10b106-ce26-4cd0-b1e4-d8eafada08aa" msprop:DbColumnName="Region_Fab_Vehiculo" msprop:FriendlyName="Region_Fab_Vehiculo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Continente_Fab_Vehiculo" msprop:design-time-name="b61d569b-8fca-4b95-8df8-e95cb61d2d20" msprop:DbColumnName="Continente_Fab_Vehiculo" msprop:FriendlyName="Continente_Fab_Vehiculo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Estrato_Ano_Fab" msprop:design-time-name="8ff64cb4-dc2b-41d3-97c3-f6db1d230606" msprop:DbColumnName="Estrato_Ano_Fab" msprop:FriendlyName="Estrato_Ano_Fab" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactEstacionamiento" msprop:design-time-name="2f5d1240-c20d-487c-89fc-97b4cc40a45a" msprop:FriendlyName="FactEstacionamiento" msprop:DbSchemaName="dbo" msprop:DbTableName="FactEstacionamiento" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Parqueo" msprop:design-time-name="35edfb17-00bc-46e6-94a3-ef82c02974f3" msprop:DbColumnName="Id_Parqueo" msprop:FriendlyName="Id_Parqueo" type="xs:int" />
+                  <xs:element name="Id_Vehiculo" msprop:design-time-name="8c4bfdb4-d10e-4837-8e73-f39175003bc9" msprop:DbColumnName="Id_Vehiculo" msprop:FriendlyName="Id_Vehiculo" type="xs:int" />
+                  <xs:element name="TarifaBase" msprop:design-time-name="11a50f68-2de2-4c25-8327-47a703f82579" msprop:DbColumnName="TarifaBase" msprop:FriendlyName="TarifaBase" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Ganancia" msprop:design-time-name="b68e3047-4465-466d-8cd0-12d5b4d6f9ad" msprop:DbColumnName="Ganancia" msprop:FriendlyName="Ganancia" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Mantenimiento" msprop:design-time-name="2d29f6fd-2cbf-42fd-8a11-a1e1b0b53afe" msprop:DbColumnName="Mantenimiento" msprop:FriendlyName="Mantenimiento" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ImpVentas" msprop:design-time-name="f8861275-a559-4015-80de-91cc82e39dcc" msprop:DbColumnName="ImpVentas" msprop:FriendlyName="ImpVentas" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalACobrar" msprop:design-time-name="ba9e9e86-301c-4ddd-931a-b78842aa596f" msprop:DbColumnName="TotalACobrar" msprop:FriendlyName="TotalACobrar" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FechaHoraIngreso" msprop:design-time-name="7ed13a4a-ddda-4d77-8c7b-9db8470c6f37" msprop:DbColumnName="FechaHoraIngreso" msprop:FriendlyName="FechaHoraIngreso" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="FechaHoraSalida" msprop:design-time-name="2343b9e4-0219-4a1e-9ebf-683b05589dcc" msprop:DbColumnName="FechaHoraSalida" msprop:FriendlyName="FechaHoraSalida" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="NombreFeriadoIngreso" msprop:design-time-name="7eedeee3-27d8-411c-972f-5ea20c89f0fe" msprop:DbColumnName="NombreFeriadoIngreso" msprop:FriendlyName="NombreFeriadoIngreso" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NombreFeriadoSalida" msprop:design-time-name="e0debfef-fb44-4860-8f55-43ee39a2183d" msprop:DbColumnName="NombreFeriadoSalida" msprop:FriendlyName="NombreFeriadoSalida" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CantidadDeMinutos" msprop:design-time-name="4adf8dcb-0f9c-458f-b25d-37fa54e6a767" msprop:DbColumnName="CantidadDeMinutos" msprop:FriendlyName="CantidadDeMinutos" type="xs:int" minOccurs="0" />
+                  <xs:element name="IngresoEnDiaRestriccion" msprop:design-time-name="9ec9c264-55c4-4104-b1a2-7a9e6754f417" msprop:DbColumnName="IngresoEnDiaRestriccion" msprop:FriendlyName="IngresoEnDiaRestriccion" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="SalioEnDiaRestriccion" msprop:design-time-name="f3c36359-7840-4a2c-b97d-ec4b8dc38f95" msprop:DbColumnName="SalioEnDiaRestriccion" msprop:FriendlyName="SalioEnDiaRestriccion" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="EstratoDiaRestriccion" msprop:design-time-name="8ac73bd1-e70d-4f0f-a661-48947a4781c0" msprop:DbColumnName="EstratoDiaRestriccion" msprop:FriendlyName="EstratoDiaRestriccion" type="xs:int" minOccurs="0" />
+                  <xs:element name="EstratoCantidadMinutos" msprop:design-time-name="9c37a128-1efa-4617-8790-20b27c027868" msprop:DbColumnName="EstratoCantidadMinutos" msprop:FriendlyName="EstratoCantidadMinutos" type="xs:int" minOccurs="0" />
+                  <xs:element name="EstratoIngresoParteDelDia" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="12621e16-0f7f-42f6-9e25-517ed157e958" msprop:DbColumnName="EstratoIngresoParteDelDia" msprop:FriendlyName="EstratoIngresoParteDelDia" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="EstratoSalidaParteDelDia" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="da125b41-6a9e-4256-ba30-d3ee5eb65418" msprop:DbColumnName="EstratoSalidaParteDelDia" msprop:FriendlyName="EstratoSalidaParteDelDia" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="EstratoGanancia" msprop:design-time-name="9bcb8a21-93b9-4167-a23a-1ee4b6ea5b80" msprop:DbColumnName="EstratoGanancia" msprop:FriendlyName="EstratoGanancia" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimParqueo" />
+          <xs:field xpath="Id_Parqueo" />
+        </xs:unique>
+        <xs:unique name="dbo_DimVehiculo_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimVehiculo" />
+          <xs:field xpath="Id_Vehiculo" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="FactEstacionamiento-DimParqueo" msdata:parent="dbo_DimParqueo" msdata:child="dbo_FactEstacionamiento" msdata:parentkey="Id_Parqueo" msdata:childkey="Id_Parqueo" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="FactEstacionamiento-DimVehiculo" msdata:parent="dbo_DimVehiculo" msdata:child="dbo_FactEstacionamiento" msdata:parentkey="Id_Vehiculo" msdata:childkey="Id_Vehiculo" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Tarea_x0020_Analisis xmlns="" />
+  </Schema>
+</DataSourceView>

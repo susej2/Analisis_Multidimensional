@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "PruebaAnalisis", "PruebaAnalisis\PruebaAnalisis.dwproj", "{6AB9C480-5E5B-4C1A-A510-E9AEFC5AD0BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB9C480-5E5B-4C1A-A510-E9AEFC5AD0BC}.Development|Default.ActiveCfg = Development
+		{6AB9C480-5E5B-4C1A-A510-E9AEFC5AD0BC}.Development|Default.Build.0 = Development
+		{6AB9C480-5E5B-4C1A-A510-E9AEFC5AD0BC}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65113E30-F3C2-4F34-8558-205EC51D22CD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,139 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f008bd91-de5b-4379-896d-8abb8c9a3a84" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Parqueo</ID>
+  <Name>Dim Parqueo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="35d1bd8e-626a-475a-9e64-b4fe97a3fd69">
+    <DataSourceViewID>Tarea Analisis</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="63248cf6-e401-4125-a0a7-8857db816884">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="bce19f9b-a698-4826-909c-399ac1bf2853">
+      <ID>Id Parqueo</ID>
+      <Name>Id Parqueo</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="96c72846-955b-4a48-bdf3-649da2dced85">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="798fd0ac-6c4b-478a-97f1-a227f3423797">
+            <TableID>dbo_DimParqueo</TableID>
+            <ColumnID>Id_Parqueo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="cd590e24-10d3-492a-8b63-d675ccd09ad8">
+          <AttributeID>Distrito Parqueo</AttributeID>
+          <Name>Distrito Parqueo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="653d462d-37d0-4e78-b8dd-de24c9853b0c">
+          <AttributeID>Provincia Parqueo</AttributeID>
+          <Name>Provincia Parqueo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02e56747-9676-4b60-88f1-c5de4f451b6d">
+          <AttributeID>Canton Parqueo</AttributeID>
+          <Name>Canton Parqueo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="66f81c8e-297e-4413-887e-32d200e9ce48">
+      <ID>Distrito Parqueo</ID>
+      <Name>Distrito Parqueo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d38c757-e590-4421-a404-f4146632897d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d68eee2-7576-4f12-9d5f-f6b69f1fb620">
+            <TableID>dbo_DimParqueo</TableID>
+            <ColumnID>Distrito_Parqueo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="66f993d6-e84a-4cdb-be7d-5858112ee9bb">
+      <ID>Provincia Parqueo</ID>
+      <Name>Provincia Parqueo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3dd3da0b-9a3b-4557-b12a-e768520dbdea">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4e3cee3-4976-42ab-b716-310c1453db55">
+            <TableID>dbo_DimParqueo</TableID>
+            <ColumnID>Provincia_Parqueo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78a97aac-9074-49cc-9aa3-aa5997d10aa4">
+      <ID>Canton Parqueo</ID>
+      <Name>Canton Parqueo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05737ae9-da60-4a1d-9ea5-0fe478d7fc75">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6aab3eb6-1e14-4147-a4f5-829b515e90e4">
+            <TableID>dbo_DimParqueo</TableID>
+            <ColumnID>Canton_Parqueo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
